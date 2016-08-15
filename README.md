@@ -1,4 +1,4 @@
-<strong>“Segmentation_Test.py” file:</strong><br/>
+<h1><strong>“Segmentation_Test.py” file:</strong><br/></h1>
 This python script tests the segmentation of the character images stored in the directory “Character_Document”. These are image files from which raw character image data are extracted for machine learning training.  This script just takes in one user input which stores the number of character documents in the directory “Character_Document”. The script generates the segmented images as shown below in figure 1 in the same directory. Machine learning classifier is used to recognize a character set of 87. Throughout the images the 87th parsed character of each set is tagged as shown below in figure 1. If the last character of the last of segmented image files “>” is given a tag of “87”, then it is understood that character segmentation throughout the character image files are done absolutely properly. If any other character is given the tag of “87” then there must be a segmentation mismatch most probably due to double segmentation of a single character.<br/><br/>
 
 
